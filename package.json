@@ -1,0 +1,73 @@
+{
+  "name": "visual",
+  "description": "default_template_value",
+  "version": "1.0.0.0",
+  "repository": {
+    "type": "default_template_value",
+    "url": "default_template_value"
+  },
+  "license": "MIT",
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx",
+    "cert": "pbiviz --install-cert",
+    "build": "webpack --progress --display-error-details"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/base": "^5.0.0-beta.32",
+    "@mui/icons-material": "^5.15.5",
+    "@mui/material": "^5.4.1",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.12",
+    "@mui/x-data-grid": "^6.19.2",
+    "@mui/x-data-grid-generator": "^6.19.1",
+    "@nlux/langchain-react": "^2.11.1",
+    "@nlux/react": "^2.11.1",
+    "@nlux/themes": "^2.11.1",
+    "@silevis/reactgrid": "^4.1.6",
+    "@types/d3": "7.4.0",
+    "@types/node": "^20.11.28",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "axios": "^1.6.8",
+    "d3": "7.8.5",
+    "lru-cache": "^10.1.0",
+    "powerbi-visuals-api": "~5.3.0",
+    "powerbi-visuals-utils-formattingmodel": "6.0.0",
+    "process": "0.11.10",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "styled-components": "^6.1.8",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "css-loader": "^6.9.1",
+    "eslint": "^8.42.0",
+    "eslint-plugin-powerbi-visuals": "^0.8.1",
+    "extra-watch-webpack-plugin": "^1.0.3",
+    "json-loader": "^0.5.7",
+    "less": "^4.2.0",
+    "less-loader": "^12.1.0",
+    "mini-css-extract-plugin": "^2.7.7",
+    "powerbi-visuals-tools": "^5.4.0",
+    "powerbi-visuals-webpack-plugin": "^4.1.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "4.9.3",
+    "webpack": "^5.89.0",
+    "webpack-bundle-analyzer": "^4.10.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "peerDependencies": {
+    "@mui/material": "^5.4.1",
+    "@mui/system": "^5.4.1",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "proxy": "http://localhost:8080/"
+}
